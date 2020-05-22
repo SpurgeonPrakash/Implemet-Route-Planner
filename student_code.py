@@ -5,7 +5,6 @@ from collections import namedtuple
 Cost = namedtuple('Cost', ['total', 'journey', 'to_goal'])  # (float, float)
 Path = namedtuple('Path', ['cost', 'intersections', 'previous', 'frontier'])  # (Cost, [int, int ...], int, int)
 
-
 def euclidean_distance(origin_point: [float, float], destination_point: [float, float]) -> float:
     """
     Given two points returns their euclidean distance
