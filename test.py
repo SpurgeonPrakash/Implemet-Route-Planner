@@ -6,6 +6,7 @@ MAP_40_ANSWERS = [
     (8, 24, [8, 14, 16, 37, 12, 17, 10, 24])
 ]
 
+
 def test(shortest_path_function):
     map_40 = load_map('map-40.pickle')
     correct = 0
