@@ -2,6 +2,7 @@ import heapq
 from math import pow, sqrt
 from collections import namedtuple
 
+
 Cost = namedtuple('Cost', ['total', 'journey', 'to_goal'])  # (float, float)
 Path = namedtuple('Path', ['cost', 'intersections', 'previous', 'frontier'])  # (Cost, [int, int ...], int, int)
 
